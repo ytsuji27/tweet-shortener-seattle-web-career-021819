@@ -20,4 +20,4 @@ def word_substituter(string)
   string_to_array = string.split
   string_to_array.collect do |word|
     if dictionary.keys.include?(word.downcase)
-      
+      word = 
