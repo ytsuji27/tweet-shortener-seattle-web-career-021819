@@ -19,4 +19,4 @@ end
 def word_substituter(string)
   string_to_array = string.split
   string_to_array.collect do |word|
-    if word
+    if dictionary
